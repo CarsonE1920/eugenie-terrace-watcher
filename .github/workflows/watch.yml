@@ -1,0 +1,16 @@
+name: watch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show files
+        run: |
+          pwd
+          ls -la
