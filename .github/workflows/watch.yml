@@ -10,7 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Show files
-        run: |
-          pwd
-          ls -la
+      - name: Run Python
+        run: python watch_eugenie.py
+``
