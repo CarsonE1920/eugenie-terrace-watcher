@@ -11,5 +11,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run Python
-        run: python watch_eugenie.py
-``
+        run: python watch_eugenie.py''
